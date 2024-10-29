@@ -11,7 +11,7 @@ function App() {
   function addNote(newNote){
       
     setNotes(prevNotes => {
-     return [...prevNotes, newNote];
+     return [...prevNotes, newNote];  // Returnează un array nou care include notițele existente și noua notiță
     })
   }
 
